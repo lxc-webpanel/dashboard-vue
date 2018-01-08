@@ -1,0 +1,154 @@
+{
+  "dates": {
+    "day": "jour | jours"
+  },
+  "host": {
+    "name": "Hôte",
+    "actions": {
+      "reboot": "Redémarrer"
+    },
+    "messages": {
+      "deny_stats": "Désolé, vous n'avez pas accès aux statisitques de l'hôte.",
+      "reboot_dialog_headline": "Redémarrer l'hôte ?",
+      "reboot_dialog_subheadline": "Vous allez être déconnecté !",
+      "reboot_dialog_body": "Vous devrez vous reconnecter une fois le rédemarrage terminé. Cela ne prendra qu'une minute ou deux :)"
+    }
+  },
+  "containers": {
+    "name": "Conteneurs",
+    "actions": {
+      "clone": "Clôner",
+      "create": "Créer CT",
+      "freeze": "Geler",
+      "restart": "Redémarrer",
+      "shutdown": "Arrêter",
+      "start": "Démarrer",
+      "stop": "Stopper",
+      "unfreeze": "Dégeler"
+    },
+    "states": {
+      "ALL": "Tous",
+      "FREEZING": "Gèle...",
+      "FROZEN": "Gelé | Gelés",
+      "RESTARTING": "Redémarre...",
+      "RUNNING": "Démarré | Démarrés",
+      "SHUTTING_DOWN": "S'arrête...",
+      "STARTING": "Démarre...",
+      "STOPPED": "Stoppé | Stoppés",
+      "STOPPING": "Stoppe...",
+      "UNFREEZING": "Dégèle..."
+    },
+    "form": {
+      "name": "Nom",
+      "target": "Cible",
+      "container_name": {
+        "label": "Nom du Conteneur",
+        "help": "Un message pour aider l'utilisateur à propos du nom du conteneur."
+      },
+      "template": {
+        "label": "Modèle",
+        "help": "Un message pour aider l'utilisateur à propos du modèle du conteneur."
+      },
+      "target_container": {
+        "label": "Conteneur Cible",
+        "help": "Un message pour aider l'utilisateur à propos du conteneur qui va être clôné."
+      },
+      "cpu": {
+        "label": "Processeur·s",
+        "help": "Un message pour aider l'utilisateur à propos du ou des processeurs.",
+        "hint": "Sur quel·s cœur·s le conteneur fonctionnera t-il ?"
+      },
+      "memory": {
+        "label": "Mémoire",
+        "help": "Un message pour aider l'utilisateur à propos de la mémoire et du swap.",
+        "hint": "0 = pas de limite."
+      },
+      "shutdown_target_container": {
+        "label": "Arrêter le conteneur cible ?",
+        "will": "Le conteneur cible <b>sera</b> arrêté avant d'être clôné.",
+        "will_not": "Le conteneur cible <b>ne sera pas</b> arrêté avant d'être clôné."
+      },
+      "network_card": {
+        "add": "Ajouter une carte réseau",
+        "simple": {
+          "label": "Simple",
+          "help": "Un message pour aider l'utilisateur à propos des paramètres réseau simples."
+        },
+        "advanced": {
+          "label": "Avancé",
+          "help": "Un message pour aider l'utilisateur à propos des paramètres réseau avancés."
+        },
+        "ips": {
+          "label": "Adresse·s IP",
+          "hint": "IPV4 et IPV6 autorisées: une adresse IP par ligne"
+        },
+        "link": {
+          "label": "Lien?",
+          "hint": "ex. lxcbr0"
+        },
+        "name": {
+          "label": "Nom",
+          "hint": "ex. eth0"
+        },
+        "vlan": {
+          "label": "VLAN?"
+        },
+        "mtu": {
+          "label": "MTU?"
+        },
+        "hw_address": {
+          "label": "HW Address?"
+        }
+      }
+    }
+  },
+  "stats": {
+    "state": "État",
+    "uptime": "Temps de fonctionnement",
+    "total": "Total",
+    "used": "Utilisé",
+    "memory_used": "Utilisée",
+    "cached": "En cache",
+    "free": "Libre",
+    "name": "Nom",
+    "logical_core": "Cœur Logique | Cœurs Logiques",
+    "physical_core": "Cœur Physique | Cœurs Physiques",
+    "model": "Modèle",
+    "disk": "Disque",
+    "memory": "Mémoire",
+    "swap": "Swap",
+    "cpu": "Processeur | Processeurs",
+    "lxc_version": "Version d'LXC",
+    "network": "Réseau",
+    "unlimited": "Pas de limite",
+    "swap_limit": "Swap Max.",
+    "memory_limit": "Mémoire Max.",
+    "file_system": "Système de fichiers",
+    "settings": "Paramètres",
+    "network_card": "Carte Réseau"
+  },
+  "and" : "et",
+  "to": "à",
+  "unlimited": "Pas de limite",
+  "general": "Général",
+  "messages": {
+    "no_containers": "Désolé, vous n'avez pas de conteneurs.",
+    "logged_out": "Vous avez bien été déconnecté !"
+  },
+  "actions": {
+    "cancel": "Annuler",
+    "search": "Rechercher",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "continue": "Continuer",
+    "clone": "Clôner",
+    "create": "Créer"
+  },
+  "form": {
+    "optional": "Optionnel",
+    "errors": {
+      "required": "{0} est requis.",
+      "minLength": "{0} doit comporter au moins {1} caractères."
+    }
+  }
+}
